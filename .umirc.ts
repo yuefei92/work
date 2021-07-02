@@ -1,9 +1,9 @@
 import { defineConfig } from 'umi';
 
 export default defineConfig({
-  nodeModulesTransform: {
-    type: 'none',
-  },
-  routes: [{ path: '/', component: '@/pages/index' }],
-  fastRefresh: {},
+  title: 'work',
+  mode: 'doc',
+  base: '/work',
+  publicPath: '/work/',
+  exportStatic: {},
 });
